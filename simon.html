@@ -1,0 +1,83 @@
+<!--Browser that was used was microsoft edge but should work on google chrome-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Simon Says Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="simon.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <h1 style = "font-family: 'Orbitron';" > Simon Says Game</h1>
+    <h2 style = "font-family: 'Orbitron';" > Levi Ngugi</h2>
+
+    <!--Main Circle-->
+    <div id="MainCircle" style="position:absolute; left:50%; top:50%; 
+    transform: translate(-50%, -50%);">
+    <!--End of Main Circle-->
+
+        <!--Red-->
+        <div class="BlackCircle" style="position:absolute; left:10%; top:10%; 
+        transform: translate(-50%, -50%);"></div>
+        <div class="shapes RedCircle" id="1" style="position:absolute; left:10%; top:10%; 
+        transform: translate(-50%, -50%);"> </div>
+        <!--Red-->
+
+        <!--Green-->
+        <div class="BlackCircle" style="position:absolute; left:90%; top:10%; 
+        transform: translate(-50%, -50%);"></div>
+        <div class="shapes GreenCircle" id="2" style="position:absolute; left:90%; top:10%; 
+        transform: translate(-50%, -50%);"> </div>
+        <!--Green-->
+
+        <!--Blue-->
+        <div class="BlackCircle" style="position:absolute; left:10%; top:90%; 
+        transform: translate(-50%, -50%);"></div>
+        <div class="shapes BlueCircle" id="3" style="position:absolute; left:10%; top:90%; 
+        transform: translate(-50%, -50%);"> </div>
+        <!--Blue-->
+
+        <!--Yellow-->
+        <div class="BlackCircle" style="position:absolute; left:90%; top:90%; 
+        transform: translate(-50%, -50%);"></div>
+        <div class="shapes YellowCircle" id="4" style="position:absolute; left:90%; top:90%; 
+        transform: translate(-50%, -50%);"> </div>
+        <!--Yellow-->
+        
+    </div>
+
+    <!--ON/OFF light-->
+    <div id="light" style="position:absolute; left:50%; top:55%; 
+    transform: translate(-50%, -50%);"></div>
+
+    <!--button-->
+    <button id="startButton" class="startButton" style="position:absolute; left:50%; top:50%; 
+            transform: translate(-50%, -50%); font-family: 'Orbitron';">
+        <!--Highscore-->
+        <div class="highscore">
+            <div id="highscore" style="font-family: 'Orbitron';">
+                0
+            </div>
+        </div>
+        <!--Current-->
+        <div class="currentscore">
+            <div id="currentscore" style="font-family: 'Orbitron';">
+                0
+            </div>
+        </div>
+        START
+        <button id="resetButton"  style="position:absolute; left:50%; top:50%; 
+        transform: translate(-50%, 110%); font-family: 'Orbitron';">RESET</button>
+    </button>
+    <!--button-->
+
+    <!--Script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="simon.js"></script>
+    <!--Script-->
+
+</body>
+</html>

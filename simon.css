@@ -1,0 +1,140 @@
+/* Shapes for Simon Says game */
+body{
+    background-color: rgb(152, 66, 250);
+  }
+  .shapes {
+    width: 3000px;
+    height: 3000px;
+    float: left;
+  }
+  
+  #MainCircle {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    background: #111010;
+    text-align: center;
+    font: 28px
+  }
+  
+  #start {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #light {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin-bottom: 20px;
+  }
+  
+  .RedCircle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    background: #ff0000;
+    text-align: center;
+    font: 28px;
+    cursor: pointer;
+  }
+  
+  .BlueCircle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    background: #0004ff;
+    text-align: center;
+    font: 28px;
+    cursor: pointer;
+  }
+  
+  .GreenCircle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    background: #00ff00;
+    font: 28px;
+    cursor: pointer;
+  }
+  
+  .YellowCircle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    background: #fffb00;
+    text-align: center;
+    font: 28px;
+    cursor: pointer;
+  }
+  
+  .BlackCircle {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    padding: 5px;
+    background: #000000ee;
+    text-align: center;
+    font: 28px
+  }
+  /* Shapes for Simon Says game */
+  
+  /* Start button with high/current score */
+  #startButton{
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  #resetButton{
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 24px;
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+  .highscore{
+    position: absolute;
+    left: -30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    font-size: 24px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  .currentscore {
+    position: absolute;
+    right: -30%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    height: 30px;
+    width: 30px;
+    font-size: 24px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  /* Start button with high/current score */
